@@ -23,14 +23,15 @@
 <body class="bg-white">
 
     <section class="calculator-body bg-slate-300 p-5 m-5 rounded-lg shadow-lg shadow-slate-400">
-        <h1 class="text-4xl font-bold text-red-700">Cal_Key</h1>
+        <h1 class="text-4xl font-bold text-red-700 text-center">Cal_<span class="text-slate-900">Key</span></h1>
 
-        <input class="w-full bg-slate-200 rounded-md focus:outline-none px-2 py-3 text-2xl font-medium outline-none "
+        <input id="display"
+            class="w-full bg-slate-100 rounded-md focus:outline-none px-2 py-3 text-2xl font-medium outline-none mt-5 shadow-lg shadow-slate-400"
             type="text">
 
         <div class="keyPad mt-5 grid gap-2 grid-cols-4 grid-rows-4">
             <button
-                class="bg-red-700 text-white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold hover:bg-red-800">C</button>
+                class="bg-red-700 text-white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold hover:bg-red-600">C</button>
             <button
                 class="white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold hover:bg-slate-100">D</button>
             <button
@@ -67,7 +68,7 @@
                 class="white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold hover:bg-slate-100">00</button>
             <button class="white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold">.</button>
             <button
-                class="bg-slate-900 text-white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold hover:bg-slate-950">=</button>
+                class="bg-slate-900 text-white rounded-md shadow-lg shadow-slate-500 p-3 text-3xl font-bold hover:bg-slate-800">=</button>
         </div>
     </section>
 

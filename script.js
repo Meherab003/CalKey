@@ -1,1 +1,1 @@
-console.log("Hello");
+const display = document.getElementById("display");
